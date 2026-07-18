@@ -1,1 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrackPack — Track every package, from every carrier</title>
+  <meta name="description" content="TrackPack tracks packages from any shipping carrier in one iPhone dashboard — scan, type, or share in a tracking number and get notified as it moves." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%232a78d6'/%3E%3Cpath d='M21 8l-9-5-9 5 9 5 9-5z' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M3 8v8l9 5 9-5V8' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12 13v8' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+      </span>
+      TrackPack
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="./" aria-current="page">Home</a>
+      <a href="terms/">Terms</a>
+      <a href="privacy/">Privacy</a>
+      <a href="support/">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">For iPhone</p>
+        <h1>Every package.<br>Every carrier.<br><span class="accent-word">One dashboard.</span></h1>
+        <p class="hero-sub">TrackPack tracks packages from any shipping carrier automatically — type a tracking number, scan the label, or share it in. No carrier accounts, no API keys, nothing to set up.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="support/">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8.5C2 6 4 4 6.5 4h11C20 4 22 6 22 8.5v7c0 2.5-2 4.5-4.5 4.5h-11C4 20 2 18 2 15.5v-7z"/><path d="M4 7l7.4 5.2a1 1 0 0 0 1.2 0L20 7"/></svg>
+            Get notified at launch
+          </a>
+          <a class="btn btn-ghost" href="#how-it-works">See how it works</a>
+        </div>
+        <p class="hero-fineprint">Requires iOS 17 or later. Syncs privately via your own iCloud account.</p>
+      </div>
+
+      <div class="timeline-card" aria-hidden="true">
+        <div class="timeline-card-head">
+          <div>
+            <div class="pkg-name">Standing Desk</div>
+            <div class="pkg-carrier">UPS · 1Z999AA1</div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-fill"></div>
+          <div class="step is-done"><span class="step-dot"></span><span class="step-label">Info Received</span></div>
+          <div class="step is-done"><span class="step-dot"></span><span class="step-label">In Transit</span></div>
+          <div class="step is-done"><span class="step-dot"></span><span class="step-label">Out for Delivery</span></div>
+          <div class="step is-done"><span class="step-dot"></span><span class="step-label">Delivered</span></div>
+        </div>
+        <div class="timeline-status">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          Delivered today, 2:14 PM
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pillars">
+    <div class="wrap">
+      <div class="pillars-grid">
+        <div class="pillar">
+          <div class="pillar-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>Any carrier, detected automatically</h3>
+          <p>USPS, UPS, FedEx, DHL, Amazon Logistics, regional and international couriers — TrackPack recognizes the carrier from the tracking number itself.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.2-9.5-9.4C.7 8 2 4.5 5.5 3.8c2-.4 3.7.5 4.9 2 1-1.5 2.9-2.4 4.9-2 3.5.7 4.8 4.2 3 7.8C19 15.8 12 21 12 21z"/></svg></div>
+          <h3>Set up in seconds</h3>
+          <p>Sign in with Apple and start tracking immediately. No carrier accounts to create, no API keys to find and paste in.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+          <h3>It tells you, you don't ask it</h3>
+          <p>Notifications when a package ships, goes out for delivery, or arrives. A widget and Live Activity keep status visible without opening the app.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7l7-4z"/></svg></div>
+          <h3>Private by default</h3>
+          <p>Your package list lives in your own iCloud account. TrackPack never sells data or tracks you across the web.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Everything inside</p>
+        <h2>Built around how packages actually move.</h2>
+        <p>Four groups of features, each solving a specific part of "where is my stuff."</p>
+      </div>
+
+      <div class="feature-groups">
+
+        <div class="feature-group">
+          <h3>Add packages your way</h3>
+          <div class="feature-list">
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5a1 1 0 0 1 1-1h2M4 17v2a1 1 0 0 0 1 1h2M20 7V5a1 1 0 0 0-1-1h-2M20 17v2a1 1 0 0 1-1 1h-2"/><rect x="8" y="8" width="8" height="8" rx="1"/></svg></span>
+              <div><h4>Scan a label</h4><p>Point the camera at a shipping label and TrackPack lifts the tracking number straight off it.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v14"/></svg></span>
+              <div><h4>Share it in</h4><p>Send a number or link from Mail, Messages, Notes, or Safari directly into TrackPack via the share sheet.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16"/><path d="M4 5h12"/><path d="M4 12h16"/></svg></span>
+              <div><h4>Or just type it</h4><p>Paste a tracking number and the carrier is detected automatically — no picking from a list required.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-group">
+          <h3>Stay informed</h3>
+          <div class="feature-list">
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+              <div><h4>Notifications that matter</h4><p>Out for delivery, delivered, or a delivery exception — not a ping for every minor scan.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/><rect x="6" y="12" width="5" height="3"/></svg></span>
+              <div><h4>A widget worth glancing at</h4><p>Your next delivery and active package count on the Home Screen, with a one-tap refresh.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M9 18h6"/></svg></span>
+              <div><h4>Live Activities</h4><p>Track an out-for-delivery package right from your Lock Screen or the Dynamic Island.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-group">
+          <h3>Stay organized</h3>
+          <div class="feature-list">
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M6 13l6 6 6-6"/></svg></span>
+              <div><h4>Incoming and outgoing, sorted</h4><p>Packages coming to you and packages you're sending are tagged and grouped automatically.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18"/><path d="M8 2v4M16 2v4"/><path d="M12 13v4"/></svg></span>
+              <div><h4>Return deadlines, with a countdown</h4><p>Flag anything you might send back and TrackPack escalates the urgency as the date gets close.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7l-8-4-8 4 8 4 8-4z"/><path d="M4 7v10l8 4 8-4V7"/><path d="M12 11v10"/></svg></span>
+              <div><h4>Delivered packages archive themselves</h4><p>Your active list only ever shows what's still moving.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-group">
+          <h3>Private &amp; synced</h3>
+          <div class="feature-list">
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+              <div><h4>Sign in with Apple</h4><p>No new account, no password — one tap and you're in.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6.4 6.1 4.5 4.5 0 0 0 6 15h12a4 4 0 0 0 0-8h-0.4"/></svg></span>
+              <div><h4>Synced via your iCloud</h4><p>Your tracked packages follow you to every device signed into your Apple ID.</p></div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></span>
+              <div><h4>Nothing to configure</h4><p>Carrier lookups run through TrackPack automatically — you never see or manage an API key.</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-alt" id="how-it-works">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>From tracking number to notification.</h2>
+      </div>
+      <div class="steps-list">
+        <div class="step-row">
+          <div class="step-num">01</div>
+          <div><h4>Sign in with Apple</h4><p>One tap, no new account to create.</p></div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">02</div>
+          <div><h4>Add a package</h4><p>Type a number, scan a label, or share one in from another app.</p></div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">03</div>
+          <div><h4>TrackPack detects the carrier</h4><p>No picking from a list — it recognizes the format and pulls live status automatically.</p></div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">04</div>
+          <div><h4>Get notified as it moves</h4><p>Out for delivery, delivered, or if something needs your attention.</p></div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">05</div>
+          <div><h4>Check the widget or Lock Screen</h4><p>A glance is usually all it takes — no need to open the app.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="closing">
+    <div class="wrap">
+      <h2>Stop checking six different tracking pages.</h2>
+      <p>TrackPack brings every carrier into one dashboard on your iPhone.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="support/">Get notified at launch</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="./">Home</a>
+      <a href="terms/">Terms</a>
+      <a href="privacy/">Privacy</a>
+      <a href="support/">Support</a>
+    </nav>
+    <div class="footer-credit">Created by <a href="../">Evergreen Applications</a><br>&copy; <span id="year">2026</span> Evergreen Applications. All rights reserved.</div>
+  </div>
+</footer>
+
+</body>
+</html>
 
