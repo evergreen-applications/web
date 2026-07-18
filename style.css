@@ -8,6 +8,7 @@
   --ink-muted: #83908a;
   --accent: #1e6b45;
   --accent-ink: #ffffff;
+  --heading-ink: #163923;
   --border: rgba(20, 32, 26, 0.10);
   --border-strong: rgba(20, 32, 26, 0.18);
 }
@@ -23,6 +24,7 @@
     --ink-muted: #7e8981;
     --accent: #5fb98a;
     --accent-ink: #0c130f;
+    --heading-ink: #5fb98a;
     --border: rgba(255, 255, 255, 0.10);
     --border-strong: rgba(255, 255, 255, 0.18);
   }
@@ -37,6 +39,7 @@
   --ink-muted: #7e8981;
   --accent: #5fb98a;
   --accent-ink: #0c130f;
+  --heading-ink: #5fb98a;
   --border: rgba(255, 255, 255, 0.10);
   --border-strong: rgba(255, 255, 255, 0.18);
 }
@@ -50,6 +53,7 @@
   --ink-muted: #83908a;
   --accent: #1e6b45;
   --accent-ink: #ffffff;
+  --heading-ink: #163923;
   --border: rgba(20, 32, 26, 0.10);
   --border-strong: rgba(20, 32, 26, 0.18);
 }
@@ -79,6 +83,7 @@ h1, h2, h3 {
   letter-spacing: -0.01em;
   text-wrap: balance;
   margin: 0;
+  color: var(--heading-ink);
 }
 
 p { margin: 0; }
@@ -110,7 +115,7 @@ p { margin: 0; }
   font-size: 1rem;
   letter-spacing: -0.005em;
   text-decoration: none;
-  color: var(--ink);
+  color: var(--heading-ink);
 }
 
 .brand-logo {
@@ -129,7 +134,7 @@ p { margin: 0; }
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-muted);
+  color: var(--heading-ink);
 }
 
 .hero-heading {
@@ -154,7 +159,7 @@ p { margin: 0; }
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-muted);
+  color: var(--heading-ink);
   margin-bottom: 24px;
   display: block;
 }
@@ -236,14 +241,13 @@ p { margin: 0; }
   flex-wrap: wrap;
   gap: 14px;
   font-size: 0.82rem;
-  color: var(--ink-muted);
+  color: var(--heading-ink);
 }
 
 .site-footer a {
-  color: var(--ink-secondary);
+  color: var(--heading-ink);
   text-decoration: none;
   font-weight: 600;
 }
 
-.site-footer a:hover { color: var(--ink); }
-
+.site-footer a:hover { opacity: 0.75; }
