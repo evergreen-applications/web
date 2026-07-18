@@ -183,69 +183,6 @@ main { padding: 8px 0 24px; }
 
 .app-card-arrow svg { width: 18px; height: 18px; }
 
-/* ---------- legal pages ---------- */
-
-.doc-page { padding: 40px 0 64px; }
-
-.doc-header { margin-bottom: 32px; }
-
-.doc-header h1 {
-  font-size: 1.7rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  color: var(--accent);
-  margin: 0;
-}
-
-.doc-header .updated {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 0.8rem;
-  color: var(--ink-secondary);
-  font-weight: 600;
-}
-
-.doc-notice {
-  background: var(--surface-card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 14px 16px;
-  font-size: 0.85rem;
-  line-height: 1.55;
-  color: var(--ink-secondary);
-  margin: 0 0 32px;
-}
-
-.doc-notice strong { color: var(--ink); }
-
-.doc-body h2 {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--ink);
-  margin: 32px 0 10px;
-}
-
-.doc-body h2:first-child { margin-top: 0; }
-
-.doc-body p, .doc-body li {
-  font-size: 0.94rem;
-  line-height: 1.7;
-  color: var(--ink-secondary);
-}
-
-.doc-body p + p { margin-top: 12px; }
-
-.doc-body ul {
-  margin: 12px 0 0;
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.doc-body a { color: var(--accent); font-weight: 600; text-decoration: none; }
-.doc-body a:hover { text-decoration: underline; }
-
 /* ---------- footer ---------- */
 
 .site-footer {
@@ -254,24 +191,6 @@ main { padding: 8px 0 24px; }
 }
 
 .site-footer .wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
   font-size: 0.8rem;
   color: var(--ink-secondary);
 }
-
-.footer-nav {
-  display: flex;
-  gap: 18px;
-}
-
-.footer-nav a {
-  color: var(--ink-secondary);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.footer-nav a:hover { color: var(--accent); }
