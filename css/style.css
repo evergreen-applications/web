@@ -78,6 +78,13 @@ a {
   color: var(--color-text-muted);
 }
 
+.hero-about {
+  max-width: 640px;
+  margin: 20px auto 0;
+  font-size: 1rem;
+  color: var(--color-text-muted);
+}
+
 /* Apps */
 .apps {
   padding: 32px 0 80px;
