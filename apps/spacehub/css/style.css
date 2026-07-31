@@ -234,23 +234,6 @@ a:hover {
   margin: -20px auto 32px;
 }
 
-.notify-form-wrap {
-  max-width: 640px;
-  margin: 0 auto;
-  background-color: var(--navy-elevated);
-  border: 1px solid var(--navy-border);
-  border-radius: 16px;
-  padding: 8px;
-  overflow: hidden;
-}
-
-.jotform-fallback {
-  text-align: center;
-  margin-top: 16px;
-  font-size: 0.9rem;
-  color: var(--text-muted);
-}
-
 /* Legal / Support content pages */
 .page-hero {
   padding: 56px 0 24px;
