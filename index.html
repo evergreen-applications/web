@@ -1,61 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Evergreen Applications</title>
-  <meta name="description" content="Evergreen Applications is a small software studio building focused, well-made apps." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="images/evergreen-applications-logo.png" />
+  <meta name="description" content="Evergreen Applications builds thoughtfully designed software, including SpaceHub.">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap">
-    <a href="./" class="brand">
-      <img class="brand-logo" src="images/evergreen-applications-logo.png" alt="Evergreen Applications" />
-      Evergreen Applications
-    </a>
-  </div>
-</header>
-
-<main>
-  <div class="wrap">
-
-    <section class="block">
-      <h2 class="block-title">About Us</h2>
-      <p>We build focused, well-made apps.</p>
-    </section>
-
-    <section class="block">
-      <h2 class="block-title">Our Apps</h2>
-      <a class="app-card" href="trackpack/">
-        <span class="app-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
-        </span>
-        <span class="app-card-body">
-          <h3>TrackPack</h3>
-          <p>Track packages from any shipping carrier in one iPhone dashboard.</p>
-        </span>
-        <span class="app-card-arrow">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
-        </span>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Evergreen Applications" class="brand-logo">
+        <span class="brand-name">Evergreen Applications</span>
       </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Evergreen Applications</h1>
+        <p class="hero-subtitle">Where ideas take root.</p>
+        <p class="hero-about">
+          At Evergreen Applications, we believe great apps start with great ideas. We&rsquo;re a small,
+          independent app design studio focused on creating thoughtfully designed, easy-to-use mobile
+          applications.
+        </p>
+        <p class="hero-about">
+          We&rsquo;re passionate about creating simple solutions to everyday problems, experimenting with
+          new concepts, and bringing fresh ideas to life through technology. Every app we create is a
+          reflection of our curiosity, creativity, and commitment to making something people genuinely
+          enjoy using.
+        </p>
+        <p class="hero-about">
+          Evergreen Applications is about growing ideas into something real&mdash;and creating apps that
+          are built to stick around.
+        </p>
+      </div>
     </section>
 
-    <section class="block">
-      <h2 class="block-title">Questions?</h2>
-      <p>Questions about an Evergreen Applications product? Reach out through that app's own support page.</p>
+    <section class="apps">
+      <div class="container">
+        <h2>Our Applications</h2>
+        <div class="app-grid">
+
+          <a href="apps/spacehub/index.html" class="app-card">
+            <div class="app-card-icon">
+              <img src="apps/spacehub/images/SpaceHub.png" alt="" class="app-icon">
+            </div>
+            <h3 class="app-card-title">SpaceHub</h3>
+          </a>
+
+        </div>
+      </div>
     </section>
 
-  </div>
-</main>
+    <section class="support-note">
+      <div class="container">
+        <p>Questions about an Evergreen Applications product? Reach out through that app's own support page.</p>
+      </div>
+    </section>
+  </main>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <span>&copy; 2026 Evergreen Applications. All rights reserved.</span>
-  </div>
-</footer>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Evergreen Applications. All rights reserved.</p>
+    </div>
+  </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
