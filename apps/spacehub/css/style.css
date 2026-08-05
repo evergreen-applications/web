@@ -71,7 +71,7 @@ a:hover {
   color: var(--white);
 }
 
-.brand-name .hub {
+.brand-name .accent-word {
   background: var(--flame-gradient);
   -webkit-background-clip: text;
   background-clip: text;
